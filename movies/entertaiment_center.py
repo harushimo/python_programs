@@ -18,4 +18,8 @@ doctor_strange = media.Movie("Doctor Strange", "A neurosurgeon who lost his abil
 
 movies = [anchor_man, old_school, captain_america, iron_man, guardians_of_galaxy, doctor_strange]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__doc__)
+print(media.Movie.__module__)
+print(media.Movie.__name__)
